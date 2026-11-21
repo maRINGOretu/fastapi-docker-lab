@@ -12,7 +12,7 @@ def index():
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "version": "2"}
+    return {"status": "ok", "version": "1"}
 
 
 @app.get("/info")
